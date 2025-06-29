@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="fixed top-0 w-full z-50 bg-black p-6" id="header">
+<header class="animate-swipe-down fixed top-0 w-full z-50 bg-black p-6" id="header">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
         <nav class="space-x-6">
             <a href="#about" class="hover:text-purple-400 ">About</a>

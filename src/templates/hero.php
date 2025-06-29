@@ -13,9 +13,9 @@
                   <a href="https://twitter.com/" target="_blank" class="text-2xl neon-icon"><i class="fab fa-twitter"></i></a>
                   <a href="mailto:pevinkumarofficial@gmail.com" class="text-2xl neon-icon"><i class="fas fa-envelope"></i></a>
               </div>
-              <div class="max-w-3xl mx-auto mt-10 p-6 rounded-xl border border-[#b600ff] backdrop-blur-md bg-white/5 text-center shadow-lg animate-zoom-in">
-                  <p class="text-[#b600ff] text-lg italic font-mono leading-relaxed">
-                      “I was addicted to hacking, more for the challenge, the intellectual exercise, the adventure than for any material gain.”
+              <div class="text-center mt-12 animate-swipe-up">
+                  <p id="mitnick-quote" class="font-mono text-[#b600ff] text-lg md:text-xl max-w-3xl mx-auto neon-text border-l-4 border-[#b600ff] pl-4 ">
+
                   </p>
                   <span class="block mt-4 text-sm text-gray-400">— Kevin Mitnick</span>
               </div>

@@ -1,5 +1,5 @@
 <!-- Projects Section with Filters -->
-<section id="projects" class="py-20 px-6 bg-black text-white min-h-screen">
+<section id="projects" class="projects-page py-20 px-6 text-white min-h-screen">
     <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold neon-text mb-8 animate-zoom-in">Projects</h2>
 
