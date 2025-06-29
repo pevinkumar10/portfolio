@@ -7,7 +7,7 @@
         </p>
 
         <p class="text-gray-300 text-lg leading-relaxed mt-4">
-            Currently focused on improving red team tradecraft, building custom recon frameworks, and contributing to ethical hacking communities. Open to junior pentesting or security research roles where I can continue learning, building, and breaking.
+            Currently focusing on improving red team tradecraft, building custom recon frameworks, and contributing to ethical hacking communities. Open to junior pentesting or security research roles where I can continue learning, building, and breaking.
         </p>
 
         <div class="mt-8">

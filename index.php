@@ -9,12 +9,15 @@
 	include_once 'src/libs/loader.php';
 	?>
 	<script src="https://cdn.tailwindcss.com"></script>
-	<!-- Font Awesome CDN -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 	<style>
 		:root {
 			--neon: #b600ff;
+		}
+
+		html {
+			scroll-behavior: smooth;
 		}
 
 		.neon-text {
@@ -43,6 +46,26 @@
 			box-shadow: 0 0 20px var(--neon), 0 0 30px var(--neon);
 		}
 
+		.glass-card-1 {
+			background: rgba(255, 255, 255, 0.05);
+			/* transparent glassy white */
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			/* for Safari */
+			box-shadow: 0 4px 30px rgba(182, 0, 255, 0.3);
+			border-radius: 1rem;
+		}
+
+		.glass-card-2 {
+			background: rgba(255, 255, 255, 0.05);
+			/* transparent glassy white */
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			/* for Safari */
+			box-shadow: 0 4px 30px rgba(183, 0, 255, 0.47);
+			border-radius: 3rem;
+		}
+
 		@keyframes zoom-in {
 			from {
 				opacity: 0;
@@ -58,27 +81,82 @@
 		.animate-zoom-in {
 			animation: zoom-in 0.6s ease-out forwards;
 		}
+
+		@keyframes float-slow {
+
+			0%,
+			100% {
+				transform: translateY(0px);
+			}
+
+			50% {
+				transform: translateY(-10px);
+			}
+		}
+
+		@keyframes float-fast {
+
+			0%,
+			100% {
+				transform: translateY(0px);
+			}
+
+			50% {
+				transform: translateY(-15px);
+			}
+		}
+
+		.animate-float-slow {
+			animation: float-slow 4s ease-in-out infinite;
+		}
+
+		.animate-float-fast {
+			animation: float-fast 2.5s ease-in-out infinite;
+		}
+
+		@keyframes swipe-down {
+			0% {
+				opacity: 0;
+				transform: translateY(-50px);
+			}
+
+			100% {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		.animate-swipe-down {
+			animation: swipe-down 0.8s ease-out both;
+		}
 	</style>
 </head>
 
-<body class="bg-black text-white font-mono min-h-screen flex flex-col">
-	<!-- Header -->
-	<header class="p-6">
-		<div class="max-w-6xl mx-auto flex justify-between items-center">
-			<nav class="space-x-6">
-				<a href="#about" class="hover:text-purple-400 animate-zoom-in">About</a>
-				<a href="#projects" class="hover:text-purple-400 animate-zoom-in">Projects</a>
-				<a href="#certs" class="hover:text-purple-400 animate-zoom-in">Certs</a>
-				<a href="#contact" class="hover:text-purple-400 animate-zoom-in">Contact</a>
-			</nav>
-		</div>
-	</header>
+<body class="animate-swipe-down bg-black text-white font-mono min-h-screen flex flex-col">
 	<?php
+	load_template('header');
 	load_template('hero');
 	load_template('about');
 	load_template('projects');
 	load_template('footer');
 	?>
 </body>
+<script>
+	const filterButtons = document.querySelectorAll('.filter-btn');
+	const cards = document.querySelectorAll('.project-card');
+
+	filterButtons.forEach(button => {
+		button.addEventListener('click', () => {
+			const category = button.getAttribute('data-filter');
+			cards.forEach(card => {
+				if (category === 'all' || card.dataset.category === category) {
+					card.classList.remove('hidden');
+				} else {
+					card.classList.add('hidden');
+				}
+			});
+		});
+	});
+</script>
 
 </html>

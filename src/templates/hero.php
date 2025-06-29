@@ -6,25 +6,38 @@
           <div class="w-full md:w-1/2">
               <h1 class="text-5xl neon-text animate-zoom-in">I'm Pevinkumar A</h1>
               <p class="text-lg text-gray-300 animate-zoom-in">Jr Penetration Tester | <span class="text-[#01ae06] font-semibold animate-zoom-in">Programmer</span> | Aspiring <span class="text-[#ff0000] font-semibold animate-zoom-in">Red Teamer </span></p>
-          </div>
-
-          <!-- Avatar + Social Container -->
-          <div class="flex flex-col items-center md:items-end w-full md:w-1/2">
-
-              <!-- Avatar Image -->
-              <div class="relative w-64 h-64 rounded-full border-4 border-[#b600ff] neon-box overflow-hidden shadow-lg animate-zoom-in">
-                  <img src="src/img/me.png" alt="Avatar" class="object-cover w-full h-full rounded-full " />
-              </div>
-
-              <!-- Social Icons Below Avatar -->
-              <div class="mt-7 mx-5 flex space-x-8 animate-zoom-in">
-                  <a href="https://github.com/" target="_blank" class="text-2xl neon-icon"><i class="fab fa-github"></i></a>
-                  <a href="https://linkedin.com/" target="_blank" class="text-2xl neon-icon"><i class="fab fa-linkedin"></i></a>
+              <!-- Social Icons -->
+              <div class="mt-6 mx-3 flex space-x-9 animate-zoom-in">
+                  <a href="https://github.com/pevinkumar10" target="_blank" class="text-2xl neon-icon"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/pevinkumar/" target="_blank" class="text-2xl neon-icon"><i class="fab fa-linkedin"></i></a>
                   <a href="https://twitter.com/" target="_blank" class="text-2xl neon-icon"><i class="fab fa-twitter"></i></a>
-                  <a href="mailto:you@example.com" class="text-2xl neon-icon"><i class="fas fa-envelope"></i></a>
+                  <a href="mailto:pevinkumarofficial@gmail.com" class="text-2xl neon-icon"><i class="fas fa-envelope"></i></a>
+              </div>
+              <div class="max-w-3xl mx-auto mt-10 p-6 rounded-xl border border-[#b600ff] backdrop-blur-md bg-white/5 text-center shadow-lg animate-zoom-in">
+                  <p class="text-[#b600ff] text-lg italic font-mono leading-relaxed">
+                      “I was addicted to hacking, more for the challenge, the intellectual exercise, the adventure than for any material gain.”
+                  </p>
+                  <span class="block mt-4 text-sm text-gray-400">— Kevin Mitnick</span>
               </div>
 
           </div>
+          <div class="relative flex flex-col items-center md:items-end w-full md:w-1/2 animate-zoom-in">
 
+              <!-- Avatar -->
+              <img src="src/img/me.png" alt="Avatar" class="object-cover w-54 h-54 md:w-full md:h-full rounded-full" />
+
+              <!-- Floating Icons -->
+              <img src="src/img/icons/git.png" class="glass-card-2 absolute animate-float-fast top-[10%] left-[30%] md:left-[20%] w-[43px] md:w-[50px]">
+              <img src="src/img/icons/python.png" class="glass-card-2 absolute animate-float-fast top-[28%] left-[8%] md:left-[-5%] w-[40px] md:w-[50px]">
+              <img src="src/img/icons/vs.png" class="glass-card-2 absolute animate-float-fast bottom-[45%] left-[15%] md:right-[46%] w-[40px] md:w-[50px]">
+              <img src="src/img/icons/docker.png" class="glass-card-2 absolute animate-zoom-in animate-float-fast bottom-[20%] left-[5%] md:right-[38%] w-[40px] md:w-[50px]">
+
+              <img src="src/img/icons/wireshark.png" class="glass-card-2 absolute  animate-float-fast top-[15%] right-[22%] md:right-[20%] w-[33px] md:w-[40px]">
+              <img src="src/img/icons/metasploit.png" class="glass-card-2 absolute animate-float-fast top-[30%] right-[12%] md:right-[-2%] w-[48px] md:w-[50px]">
+              <img src="src/img/icons/burp.png" class="glass-card-2 absolute animate-float-fast top-[44%] right-[22%] md:right-[21%] w-[50px] md:w-[55px]">
+              <img src="src/img/icons/john.png" class="glass-card-2 absolute animate-float-fast top-[60%] right-[9%] md:right-[10%] w-[30px] md:w-[35px]">
+              <img src="src/img/icons/kali.png" class="glass-card-2 absolute animate-float-fast bottom-[13%] right-[20%] md:right-[23%] w-[40px] md:w-[45px]">
+
+          </div>
 
   </section>
