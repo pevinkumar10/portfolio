@@ -21,13 +21,13 @@
     <!-- Footer -->
     <div class="mt-64 text-gray-600 text-sm bg-black animate-on-scroll" data-animate="animate-zoom-in">
         <footer class="w-full flex justify-center">
-            © 2025 Pevinkumar A
+            2025 © All rights reserved, developed by Pevinkumar A
         </footer>
         <!-- Social Icons -->
         <div class="flex space-x-6 animate-zoom-in mt-4 justify-center">
+            <a href="mailto:pevinkumarofficial@gmail.com" class="text-lg neon-icon"><i class="fas fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/pevinkumar/" target="_blank" class="text-lg neon-icon"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com/" target="_blank" class="text-lg neon-icon"><i class="fab fa-twitter"></i></a>
-            <a href="mailto:pevinkumarofficial@gmail.com" class="text-lg neon-icon"><i class="fas fa-envelope"></i></a>
         </div>
     </div>
 

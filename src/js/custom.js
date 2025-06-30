@@ -83,3 +83,14 @@
       track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   }
+	const toggleBtn = document.getElementById("toggleBtn");
+  	const extraCards = document.querySelectorAll(".extra-card");
+  	let expanded = false;
+
+  	toggleBtn.addEventListener("click", () => {
+    expanded = !expanded;
+    extraCards.forEach(card => {
+      card.classList.toggle("hidden", !expanded);
+    });
+    toggleBtn.textContent = expanded ? "Show Less" : "Show More";
+  });

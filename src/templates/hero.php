@@ -10,7 +10,7 @@
             <div class="mt-6 mx-3 flex space-x-9 animate-zoom-in">
                 <a href="https://github.com/pevinkumar10" target="_blank" class="text-2xl neon-icon"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/pevinkumar/" target="_blank" class="text-2xl neon-icon"><i class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/" target="_blank" class="text-2xl neon-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://x.com/pk_the_hacker" target="_blank" class="text-2xl neon-icon"><i class="fab fa-twitter"></i></a>
                 <a href="mailto:pevinkumarofficial@gmail.com" class="text-2xl neon-icon"><i class="fas fa-envelope"></i></a>
             </div>
             <div class="text-center mt-12 animate-swipe-up">
