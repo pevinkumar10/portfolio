@@ -61,13 +61,11 @@
 			box-shadow: 0 0 15px #b600ff, 0 0 30px #b600ff;
 		}
 
-		.about-page {
+		.about {
 			background-color: rgb(13, 2, 19);
 		}
-		/* .projects-page {
-			background-color: rgb(13, 2, 19);
-		} */
-		.blog {
+
+		.portfolio {
 			background-color: rgb(13, 2, 19);	
 		}
 		.glow-card {

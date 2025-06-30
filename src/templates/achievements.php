@@ -1,6 +1,6 @@
-<section id="certifications" class="relative py-20 px-4 bg-black text-white overflow-hidden max-h-screen">
+<section id="certifications" class="relative py-20 bg-black text-white overflow-hidden max-h-screen">
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold text-left text-[#b600ff] neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">Achievements:</h2>
+        <h2 class="text-4xl font-bold text-left text-[#b600ff] neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">ACHIEVEMENTS</h2>
     </div>
     <!-- Vertical Center Line -->
     <div class="absolute hidden sm:block left-1/2 transform -translate-x-1/2 h-full border-l-2 border-[#b600ff] z-0 animate-on-scroll" data-animate="animate-swipe-down"></div>

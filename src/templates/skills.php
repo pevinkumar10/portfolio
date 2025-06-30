@@ -1,4 +1,4 @@
-<section id="skills" class="py-20 px-6 bg-black text-white min-h-screen">
+<section id="skills" class="py-20 bg-black text-white min-h-screen">
     <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold text-center text-[#b600ff] neon-text mb-12">Skills Dashboard</h2>
 

@@ -1,7 +1,7 @@
 <!-- Projects Section with Filters -->
-<section id="projects" class="projects-page py-20 px-6 text-white min-h-screen">
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold neon-text mb-8 animate-on-scroll" data-animate="animate-zoom-in">Projects Works:</h2>
+<section id="portfolio" class="portfolio py-20 text-white min-h-screen">
+    <div class="max-w-6xl px-6 mx-auto">
+        <h2 class="text-4xl font-bold neon-text mb-8 animate-on-scroll" data-animate="animate-zoom-in">PORTFOLIO</h2>
 
         <!-- Filter Buttons -->
         <div class="flex flex-wrap gap-4 mb-10 animate-zoom-in">
@@ -19,10 +19,10 @@
             <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="pentest">
                 <h3 class="text-2xl font-semibold text-[#b600ff]">Metasploitable2:</h3>
                 <h4 class="text-sm font-semibold text-[#b600ff] mb-2">Black Box Pentesting</h4>
-                <p class="text-gray-300 text-sm mb-3">
-                    Conducted a comprehensive black-box penetration test on Metasploitable2, successfully exploiting over 25 vulnerabilities (excluding DVWA), and documented all findings in detail </p>
+                <p class="text-gray-300 text-sm mb-5">
+                    Conducted a comprehensive black-box penetration test on Metasploitable2, successfully exploiting over 25 vulnerabilities (excluding DVWA), and documented all findings in detail. </p>
                 <div class="text-xs text-[#b600ff] mb-1 pt-4">Tools used: Nmap, Metasploit, Hydra, etc</div>
-                <div class="text-xs text-[#b600ff] mb-4">Tags: Recon, Exploitation, Post-Exploitation</div>
+                <div class="text-xs text-[#b600ff] pb-4 mb-3">Tags: Recon, Exploitation, Post-Exploitation</div>
                 <a href="https://www.linkedin.com/posts/pevinkumar_metasploitable-2-activity-7341505043579248642-49C9?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZci6kBNpXUA5gklG3nbUEXsFFHIpxINvU" class="neon-button text-sm " target="_blank">View Report</a>
             </div>
 
@@ -30,10 +30,10 @@
             <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="tools">
                 <h3 class="text-2xl font-semibold text-[#b600ff]">RaaSMonarch (v1.0.0):</h3>
                 <h4 class="text-sm font-semibold text-[#b600ff] mb-2">Recon Automation Framework</h4>
-                <p class="text-gray-300 text-sm mb-3">
+                <p class="text-gray-300 text-sm">
                     Developing RaaSMonarch (Recon-as-a-Service) Framework v1.0.0 to automate the reconnaissance process through a user-friendly web interface, eliminating the complexity and frustration of managing multiple tools manually.
                 </p>
-                <div class="text-xs text-[#b600ff] mb-1">Tech Stack: Python, PHP, Docker, BootStrap 5</div>
+                <div class="text-xs text-[#b600ff] pb-1 pt-3 ">Tech Stack: Python, PHP, Docker, BootStrap 5</div>
                 <div class="text-xs text-[#b600ff] mb-4">Tags: Pentesting, Automation, Tool Building</div>
                 <a href="https://www.linkedin.com/posts/pevinkumar_recon-osint-bugbounty-activity-7333138496691339264-tn2b?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZci6kBNpXUA5gklG3nbUEXsFFHIpxINvU" class="neon-button text-sm " target="_blank">Preview</a>
             </div>
@@ -43,9 +43,9 @@
                 <h3 class="text-2xl font-semibold text-[#b600ff]">KeySnatcher:</h3>
                 <h4 class="text-sm font-semibold text-[#b600ff] mb-2">Keylogger wiht Attack Simulation</h4>
                 <p class="text-gray-300 text-sm mb-3">
-                    Designed and simulated a keylogger attack to demonstrate the capture, secure encryption, and network-based exfiltration of keystrokes to a remote server. </p>
-                <div class="text-xs text-[#b600ff] mb-1 pt-3">Tech Stack: Python</div>
-                <div class="text-xs text-[#b600ff] mb-3 pb-2">Tags: Keylogger, Malware development</div>
+                    Designed and simulated a keylogger attack to demonstrate the keystrocks capture, secure encryption, and network-based exfiltration of keystrokes to a remote server. </p>
+                <div class="text-xs text-[#b600ff] mt-5 pt-3">Tech Stack: Python</div>
+                <div class="text-xs text-[#b600ff] mb-3 pb-5">Tags: Keylogger, Malware development</div>
                 <a href="https://github.com/pevinkumar10/KeySnatcher" class="neon-button text-sm " target="_blank">View on GitHub</a>
                 <a href="https://www.linkedin.com/posts/pevinkumar_cybersecurity-ethicalhacking-education-activity-7324440652040015874-E3eR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZci6kBNpXUA5gklG3nbUEXsFFHIpxINvU" class="neon-button text-sm p-2" target="_blank">Simulation</a>
             </div>
@@ -57,8 +57,8 @@
                 <p class="text-gray-300 text-sm mb-3">
                     Developed and simulated an ARP spoofing tool to simulate MITM attacks, aimed at gaining a comprehensive understanding of ARP spoofing mechanisms, MITM attack vectors, and effective defense strategies against such threats.
                 </p>
-                <div class="text-xs text-[#b600ff] mb-1 pt-2">Tech Stack: Python</div>
-                <div class="text-xs text-[#b600ff] mb-3">Tags: Scapy, ARP, MITM</div>
+                <div class="text-xs text-[#b600ff] pb-1">Tech Stack: Python</div>
+                <div class="text-xs text-[#b600ff] mb-3 pb-3">Tags: Scapy, ARP, MITM</div>
                 <a href="https://github.com/pevinkumar10/phonyARP" class="neon-button text-sm" target="_blank">View on GitHub</a>
             </div>
 
@@ -70,7 +70,7 @@
                     Designed and implemented a privilege escalation analysis tool to gain a deeper understanding of enumeration utilities such as LinPEAS and WinPEAS. It automate the analysis process with the help of bash.
                 </p>
                 <div class="text-xs text-[#b600ff] mb-1 pt-2">Tech Stack: Python, Bash</div>
-                <div class="text-xs text-[#b600ff] mb-3">Tags: Linux, Post-Exploitation</div>
+                <div class="text-xs text-[#b600ff] mb-3 pb-4">Tags: Linux, Post-Exploitation</div>
                 <a href="https://github.com/pevinkumar10/rootEsc" class="neon-button text-sm" target="_blank">View on GitHub</a>
             </div>
 
@@ -81,8 +81,8 @@
                 <p class="text-gray-300 text-sm mb-3">
                     Built custom CTF challenge to learn and practice chaining of three critical vulnerability like File upload to RCE to privilege escalation in a secured controlled environment (container).
                 </p>
-                <div class="text-xs text-[#b600ff] mb-1 pt-3">Tech Stack: PHP, Bash, Docker</div>
-                <div class="text-xs text-[#b600ff] mb-3">Tags: Development, Insecure FileUpload, RCE, Privilege Escalation</div>
+                <div class="text-xs text-[#b600ff] mb-1">Tech Stack: PHP, Bash, Docker</div>
+                <div class="text-xs text-[#b600ff] mb-1 pb-4">Tags: Development, Insecure FileUpload, RCE, Privilege Escalation</div>
                 <a href="https://github.com/pevinkumar10/Abandoned-Gate" class="neon-button text-sm" target="_blank">View on GitHub</a>
             </div>
 
@@ -107,7 +107,7 @@
                     Developed a E2E encrypted chat room app with GUI clients also Conducted traffic analysis to explore potential eavesdropping vectors under simulated adversarial conditions.
                 </p>
                 <div class="text-xs text-[#b600ff] mb-1 pt-2">Tech Stack: python</div>
-                <div class="text-xs text-[#b600ff] mb-3">Tags: Insecure FileUpload, RCE, Privilege Escalation</div>
+                <div class="text-xs text-[#b600ff] mb-3 pb-4">Tags: Insecure FileUpload, RCE, Privilege Escalation</div>
                 <a href="https://github.com/pevinkumar10/CryptiHub" class="neon-button text-sm" target="_blank">View on GitHub</a>
                 <a href="https://www.linkedin.com/posts/pevinkumar_cybersecurity-python-encryption-activity-7337719572487184385-rT72?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZci6kBNpXUA5gklG3nbUEXsFFHIpxINvU" class="neon-button text-sm p-2" target="_blank">Simulation</a>
             </div>

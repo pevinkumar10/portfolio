@@ -18,9 +18,9 @@
 	load_template('header');
 	load_template('hero');
 	load_template('about');
-	load_template('blogs');
+	load_template('experience');
 	load_template('projects');
-	load_template('achievements');
+	load_template('blogs');
 	load_template('contact');
 	load_template('back-to-top-btn');
 	?>

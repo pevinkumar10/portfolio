@@ -1,10 +1,10 @@
 <!-- Hero Section -->
 <section class="py-24 px-6 flex-grow min-h-screen">
-    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
 
         <!-- Left Content -->
         <div class="w-full md:w-1/2">
-            <h1 class="text-5xl neon-text animate-zoom-in">I'm Pevinkumar A</h1>
+            <h1 class="text-5xl neon-text animate-zoom-in">I'M PEVINKUMAR A</h1>
             <p class="text-lg text-gray-300 animate-zoom-in">Jr Penetration Tester | <span class="text-[#01ae06] font-semibold animate-zoom-in">Programmer</span> | Aspiring <span class="text-[#ff0000] font-semibold animate-zoom-in">Red Teamer </span></p>
             <!-- Social Icons -->
             <div class="mt-6 mx-3 flex space-x-9 animate-zoom-in">
