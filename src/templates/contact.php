@@ -27,7 +27,7 @@
         <div class="flex space-x-6 animate-zoom-in mt-4 justify-center">
             <a href="mailto:pevinkumarofficial@gmail.com" class="text-lg neon-icon"><i class="fas fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/pevinkumar/" target="_blank" class="text-lg neon-icon"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/" target="_blank" class="text-lg neon-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://x.com/pk_the_hacker" target="_blank" class="text-lg neon-icon"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
 
