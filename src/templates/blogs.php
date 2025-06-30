@@ -1,6 +1,6 @@
 <section class="blog relative pt-20 px-6 py-40 text-white">
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold text-left text-[#b600ff] neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">Blogs & Writeups</h2>
+        <h2 class="text-4xl font-bold text-left text-[#b600ff] neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">Blogs & Writeups:</h2>
 
         <div class="relative max-w-6xl mx-auto px-4">
             <!-- Left Button -->

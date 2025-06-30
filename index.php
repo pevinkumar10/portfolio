@@ -20,6 +20,7 @@
 	load_template('about');
 	load_template('blogs');
 	load_template('projects');
+	load_template('achievements');
 	load_template('contact');
 	load_template('back-to-top-btn');
 	?>

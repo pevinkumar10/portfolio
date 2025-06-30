@@ -1,7 +1,7 @@
 <!-- Projects Section with Filters -->
 <section id="projects" class="projects-page py-20 px-6 text-white min-h-screen">
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold neon-text mb-8 animate-on-scroll" data-animate="animate-zoom-in">Projects</h2>
+        <h2 class="text-4xl font-bold neon-text mb-8 animate-on-scroll" data-animate="animate-zoom-in">Projects Works:</h2>
 
         <!-- Filter Buttons -->
         <div class="flex flex-wrap gap-4 mb-10 animate-zoom-in">
