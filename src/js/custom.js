@@ -43,3 +43,43 @@
 			});
 		});
 	});
+	function scrollCards(direction) {
+		const track = document.getElementById("cardTrack");
+		const scrollAmount = 300;
+
+		if (direction === "left") {
+		track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+		} else {
+		track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+		}
+	}
+	const observer = new IntersectionObserver((entries) => {
+		entries.forEach(entry => {
+		if (entry.isIntersecting) {
+			const el = entry.target;
+			const anim = el.dataset.animate;
+
+			if (anim) {
+			el.classList.add(anim);
+			observer.unobserve(el);
+			}
+		}
+		});
+	}, {
+		threshold: 0.2,
+	});
+
+	document.querySelectorAll('.animate-on-scroll').forEach(el => {
+		observer.observe(el);
+	});
+
+	function scrollCards(direction) {
+    const track = document.getElementById("cardTrack");
+    const scrollAmount = 300;
+
+    if (direction === "left") {
+      track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    } else {
+      track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  }

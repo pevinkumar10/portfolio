@@ -1,7 +1,7 @@
 <!-- Projects Section with Filters -->
 <section id="projects" class="projects-page py-20 px-6 text-white min-h-screen">
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold neon-text mb-8 animate-zoom-in">Projects</h2>
+        <h2 class="text-4xl font-bold neon-text mb-8 animate-on-scroll" data-animate="animate-zoom-in">Projects</h2>
 
         <!-- Filter Buttons -->
         <div class="flex flex-wrap gap-4 mb-10 animate-zoom-in">
@@ -16,7 +16,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projectCards">
 
             <!-- Pentest Project -->
-            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card animate-zoom-in hover:shadow-[0_0_25px_#b600ff]" data-category="pentest">
+            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="pentest">
                 <h3 class="text-2xl font-semibold text-[#b600ff]">Metasploitable2:</h3>
                 <h4 class="text-sm font-semibold text-[#b600ff] mb-2">Black Box Testing</h4>
                 <p class="text-gray-300 text-sm mb-3">
@@ -27,7 +27,7 @@
             </div>
 
             <!-- Security Tool 1 -->
-            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card animate-zoom-in hover:shadow-[0_0_25px_#b600ff]" data-category="tools">
+            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="tools">
                 <h3 class="text-2xl font-semibold text-[#b600ff]">RaaSMonarch (v1.0.0)</h3>
                 <h4 class="text-sm font-semibold text-[#b600ff] mb-2">Recon Automation Framework</h4>
                 <p class="text-gray-300 text-sm mb-3">
@@ -39,7 +39,7 @@
             </div>
 
             <!-- Security Tool 2 -->
-            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card animate-zoom-in hover:shadow-[0_0_25px_#b600ff]" data-category="tools">
+            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="tools">
                 <h3 class="text-2xl font-semibold text-[#b600ff] mb-2">ARP Spoofer</h3>
                 <p class="text-gray-300 text-sm mb-3">
                     Scapy-powered ARP poisoner with target monitoring and packet interception.
@@ -49,7 +49,7 @@
             </div>
 
             <!-- Security Tool 3 -->
-            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card animate-zoom-in hover:shadow-[0_0_25px_#b600ff]" data-category="tools">
+            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="tools">
                 <h3 class="text-2xl font-semibold text-[#b600ff] mb-2">Privilege Analyzer</h3>
                 <p class="text-gray-300 text-sm mb-3">
                     Enumerates local privilege escalation vectors on Linux including SUID, capabilities, and misconfigs.
@@ -59,7 +59,7 @@
             </div>
 
             <!-- CTF Project -->
-            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card animate-zoom-in hover:shadow-[0_0_25px_#b600ff]" data-category="ctf">
+            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="ctf">
                 <h3 class="text-2xl font-semibold text-[#b600ff] mb-2">CTF development</h3>
                 <p class="text-gray-300 text-sm mb-3">
                     Built custom CTF challenge to learn and practice chaining of three critical vulnerability like File upload to RCE to privilege escalation in a secured controlled environment (docker container).
@@ -69,7 +69,7 @@
             </div>
 
             <!-- Red Team Simulations -->
-            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card animate-zoom-in hover:shadow-[0_0_25px_#b600ff]" data-category="red-team">
+            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll" data-animate="animate-zoom-in" data-category="red-team">
                 <h3 class="text-2xl font-semibold text-[#b600ff] mb-2">Custom keylogger</h3>
                 <p class="text-gray-300 text-sm mb-3">
                     Developed and simulated a keylogger attack to demonstrates how keystrokes can be captured, encrypted securely, and exfiltrated over a network to a remote server.

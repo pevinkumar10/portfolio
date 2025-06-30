@@ -1,6 +1,6 @@
-<section id="contact" class="py-20 px-6 bg-black text-white min-h-screen animate-zoom-in ">
+<section id="contact" class="py-20 px-6 bg-black text-white min-h-screen">
     <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-4xl font-bold text-[#b600ff] neon-text mb-8">Let's Connect</h2>
+        <h2 class="text-4xl font-bold text-[#b600ff] neon-text mb-8 animate-on-scroll" data-animate="animate-zoom-in">Let's Connect</h2>
         <p class="text-gray-400 mb-12">Have a question, project idea, or just want to say hello? Drop a message below!</p>
 
         <form class="space-y-6 max-w-2xl mx-auto" action="index.php" method="post">
@@ -18,4 +18,18 @@
             </div>
         </form>
     </div>
+    <!-- Footer -->
+    <div class="mt-64 text-gray-600 text-sm bg-black animate-on-scroll" data-animate="animate-zoom-in">
+        <footer class="w-full flex justify-center">
+            © 2025 Pevinkumar A
+        </footer>
+        <!-- Social Icons -->
+        <div class="flex space-x-6 animate-zoom-in mt-4 justify-center">
+            <a href="https://www.linkedin.com/in/pevinkumar/" target="_blank" class="text-lg neon-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/" target="_blank" class="text-lg neon-icon"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:pevinkumarofficial@gmail.com" class="text-lg neon-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+
 </section>
