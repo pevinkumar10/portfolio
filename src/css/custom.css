@@ -68,6 +68,11 @@
 		.portfolio {
 			background-color: rgb(13, 2, 19);	
 		}
+
+		.contact {
+			background-color: rgb(13, 2, 19);	
+		}
+
 		.glow-card {
   			transition: transform 0.3s ease, box-shadow 0.3s ease;
 		}
@@ -234,4 +239,19 @@
 		}
 		.animate-swipe-up {
 		animation: swipe-up 0.8s ease-out both;
+		}
+		  .popup-hover {
+			@apply absolute bottom-10 left-1/2 -translate-x-1/2 bg-black bg-opacity-90 border border-[#b600ff] p-2 rounded-xl z-10 w-44 text-center text-xs text-white;
+			animation: fadeScale 0.3s ease-in-out forwards;
+		}
+
+		@keyframes fadeScale {
+			0% {
+			opacity: 0;
+			transform: translateY(10px) scale(0.9);
+			}
+			100% {
+			opacity: 1;
+			transform: translateY(0) scale(1);
+			}
 		}

@@ -1,4 +1,4 @@
-<section id="blogs" class="relative pt-20 py-40 text-white">
+<section id="blogs" class="relative pt-20 py-40 text-white min-h-[100dvh]">
     <div class="max-w-6xl px-6 mx-auto">
         <h2 class="text-4xl font-bold text-left text-[#b600ff] neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">BLOGS & WRITE-UPs</h2>
 

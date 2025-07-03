@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="src/css/custom.css">
 </head>
 
-<body class="bg-black text-white font-mono min-h-screen flex flex-col">
+<body class="bg-black text-white font-mono min-h-[100dvh] flex flex-col">
 	<?php
 	load_template('pages_contents/header');
 	load_template('pages_contents/hero');

@@ -1,4 +1,4 @@
-<section id="contact" class="py-20 text-white min-h-screen">
+<section id="contact" class="contact py-40 text-white min-h-[100dvh]">
     <div class="max-w-4xl px-6 mx-auto text-center">
         <h2 class="text-4xl font-bold text-[#b600ff] neon-text mb-8 animate-on-scroll" data-animate="animate-zoom-in">LET'S CONNECT</h2>
         <p class="text-gray-400 mb-12">Have a question, project idea, or just want to say hello? Drop a message below!</p>
@@ -19,7 +19,7 @@
         </form>
     </div>
     <!-- Footer -->
-    <div class="mt-64 text-gray-600 text-sm animate-on-scroll" data-animate="animate-zoom-in">
+    <div class="pt-32 text-gray-600 text-sm animate-on-scroll" data-animate="animate-zoom-in">
         <footer class="w-full flex justify-center">
             © 2025 Pevinkumar A — All rights reserved.
         </footer>
@@ -30,6 +30,4 @@
             <a href="https://x.com/pk_the_hacker" target="_blank" class="text-lg neon-icon"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
-
-
 </section>

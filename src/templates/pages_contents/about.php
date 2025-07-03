@@ -1,6 +1,6 @@
 <!-- About Section -->
 <section id="about" class="relative text-white">
-    <div class="about min-h-screen pt-20 pb-10">
+    <div class="about min-h-[100dvh] pt-20 pb-10">
         <div class="max-w-6xl px-6 mx-auto content-wrapper animate-on-scroll" data-animate="animate-zoom-in">
             <h2 class="text-4xl font-bold neon-text mb-6 animate-on-scroll" data-animate="animate-zoom-in">ABOUT</h2>
             <p class="text-gray-300 text-lg leading-relaxed">
@@ -12,7 +12,10 @@
             </p>
 
             <div class="mt-8">
-                <a href="#projects" class="neon-button">See My Work</a>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 w-fit">
+                    <a href="#projects" class="neon-button text-sm px-3 py-2">See My Work</a>
+                    <a href="src/data/resume.pdf" target="_blank" class="neon-button text-sm px-4 py-2">My resume</a>
+                </div>
             </div>
         </div>
         <div class="max-w-6xl mx-auto mt-5 px-6  pt-5">

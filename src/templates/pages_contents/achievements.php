@@ -1,4 +1,4 @@
-<section id="certifications" class="relative py-20 bg-black text-white overflow-hidden max-h-screen">
+<section id="certifications" class="relative py-20 bg-black text-white overflow-hidden min-h-[100dvh]">
     <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold text-left text-[#b600ff] neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">ACHIEVEMENTS</h2>
     </div>

@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<section class="py-24 px-6 flex-grow min-h-screen">
+<section class="py-24 px-6 flex-grow min-h-[100dvh]">
     <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
 
         <!-- Left Content -->

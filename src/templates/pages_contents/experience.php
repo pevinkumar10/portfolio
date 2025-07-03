@@ -1,4 +1,4 @@
-<section id="experience" class="py-16 text-white relative min-h-screen">
+<section id="experience" class="py-16 text-white relative min-h-[100dvh]">
     <h2 class="text-4xl font-bold text-center text-[#b600ff] neon-text mb-12 animate-on-scroll" data-animate="animate-swipe-up">EXPERIENCE</h2>
 
     <!-- Vertical Center Line -->
@@ -14,7 +14,7 @@
                 <div class="w-1/2 pr-6 text-right">
                     <h3 class="text-xl font-semibold text-[#b600ff]">Tool Developer ⚒️</h3>
                     <p class="text-sm text-gray-400">2024 – Present</p>
-                    <p class="text-sm mt-1 text-gray-300">
+                    <p class="text-sm pt-1 text-gray-300">
                         Built tools like PhonyARP, RootESC , HTTP-Prober, and RaaSMonarch for recon automation.
                     </p>
                 </div>
@@ -27,9 +27,14 @@
 
                 <div class="w-1/2"></div>
                 <div class="w-1/2 pl-6 text-left">
-                    <h3 class="text-xl font-semibold text-[#b600ff]">CTF Player & Researcher 🔎</h3>
+                    <h3 class="text-xl font-semibold text-[#b600ff]">🔎 CTF Player & Researcher</h3>
                     <p class="text-sm text-gray-400">2024 – Present</p>
                     <p class="text-sm mt-1 text-gray-300">
+                        <a href="https://tryhackme.com/p/pevinkumar" target="_blank">
+                            <img src="https://tryhackme-badges.s3.amazonaws.com/pevinkumar.png"
+                                alt="TryHackMe Badge"
+                                class="rounded-md w-[300px] hover:scale-110 transition duration-300 p-4 shadow-lg" />
+                        </a>
                         Solved 60+ TryHackMe labs (Top 2% globally). Found security issues on HackerOne's public platforms & public VDPs.
                         <br />
                         <a href="https://tryhackme.com/p/pevinkumar" target="_blank" class="underline text-[#b600ff]">View Profile</a>
@@ -58,7 +63,7 @@
 
                 <div class="w-1/2"></div>
                 <div class="w-1/2 pl-6 text-left">
-                    <h3 class="text-xl font-semibold text-[#b600ff]"> Offensive Security Intern ⚡</h3>
+                    <h3 class="text-xl font-semibold text-[#b600ff]">⚡ Offensive Security Intern</h3>
                     <p class="text-sm text-gray-400">InLighn Tech | May–June 2025 </p>
                     <p class="text-sm mt-1 text-gray-300">
                         Practical learning with real-world attacks and custom tool building. Built
