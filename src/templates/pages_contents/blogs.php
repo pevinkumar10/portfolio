@@ -64,4 +64,50 @@
                 &#10095;
             </button>
         </div>
+
+        <!-- Stats Section -->
+        <div class="py-20 px-6 text-white bg-black">
+            <div class="max-w-6xl mx-auto text-center">
+                <h2 class="text-4xl font-bold neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">
+                    📈 MY JOURNEY SO FAR
+                </h2>
+
+                <!-- Metrics Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center mt-10">
+
+                    <!-- Learning Hours -->
+                    <div class="bg-[#0a0a0a] border border-[#b600ff] rounded-xl p-5 glow-card-1 animate-on-scroll" data-animate="animate-zoom-in">
+                        <div class="text-5xl font-bold text-[#b600ff]">
+                            <span class="counter" data-count="600">0</span>
+                        </div>
+                        <p class="mt-2 text-sm text-gray-300">Learning Hours</p>
+                    </div>
+
+                    <!-- Lab/Experiment Time -->
+                    <div class="bg-[#0a0a0a] border border-[#b600ff] rounded-xl p-5 glow-card-1 animate-on-scroll" data-animate="animate-zoom-in">
+                        <div class="text-5xl font-bold text-[#b600ff]">
+                            <span class="counter" data-count="300">0</span>
+                        </div>
+                        <p class="mt-2 text-sm text-gray-300">Lab Hours</p>
+                    </div>
+
+                    <!-- Projects Completed -->
+                    <div class="bg-[#0a0a0a] border border-[#b600ff] rounded-xl p-5 glow-card-1 animate-on-scroll" data-animate="animate-zoom-in">
+                        <div class="text-5xl font-bold text-[#b600ff]">
+                            <span class="counter" data-count="12">0</span>
+                        </div>
+                        <p class="mt-2 text-sm text-gray-300">Projects Completed</p>
+                    </div>
+
+                    <!-- Blogs Written -->
+                    <div class="bg-[#0a0a0a] border border-[#b600ff] rounded-xl p-5 glow-card-1 animate-on-scroll" data-animate="animate-zoom-in">
+                        <div class="text-5xl font-bold text-[#b600ff]">
+                            <span class="counter" data-count="6">0</span>
+                        </div>
+                        <p class="mt-2 text-sm text-gray-300">Blogs Written</p>
+                    </div>
+
+
+                </div>
+            </div>
 </section>

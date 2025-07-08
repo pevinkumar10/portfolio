@@ -94,3 +94,39 @@
     });
     toggleBtn.textContent = expanded ? "Show Less" : "Show More";
   });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const counters = document.querySelectorAll('.counter');
+
+    const animateCount = (counter) => {
+      const target = +counter.getAttribute('data-count');
+      let current = 0;
+
+      // Adjust total duration and steps based on target value
+      const duration = 1000; // Total animation duration in ms
+      const steps = Math.min(target, 100); // Cap steps for smoother small values
+      const increment = target / steps;
+      const interval = duration / steps;
+
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+          counter.innerText = target + '+';
+          clearInterval(timer);
+        } else {
+          counter.innerText = Math.ceil(current);
+        }
+      }, interval);
+    };
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+          animateCount(entry.target);
+          entry.target.classList.add('counted');
+        }
+      });
+    }, { threshold: 0.6 });
+
+    counters.forEach(counter => observer.observe(counter));
+  });
