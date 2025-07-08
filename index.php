@@ -25,6 +25,7 @@
 	load_template('components/back-to-top-btn');
 	?>
 </body>
+
 <script src="src/js/custom.js"></script>
 
 </html>

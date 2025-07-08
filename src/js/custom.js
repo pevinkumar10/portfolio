@@ -102,7 +102,6 @@
       const target = +counter.getAttribute('data-count');
       let current = 0;
 
-      // Adjust total duration and steps based on target value
       const duration = 1000; // Total animation duration in ms
       const steps = Math.min(target, 100); // Cap steps for smoother small values
       const increment = target / steps;
