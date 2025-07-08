@@ -13,7 +13,7 @@
 
             <div class="mt-8">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 w-fit">
-                    <a href="#projects" class="neon-button text-sm px-3 py-2">See My Work</a>
+                    <a href="#portfolio" class="neon-button text-sm px-3 py-2">See My Work</a>
                     <a href="src/data/resume.pdf" target="_blank" class="neon-button text-sm px-4 py-2">My resume</a>
                 </div>
             </div>

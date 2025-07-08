@@ -69,7 +69,7 @@
         <div class="py-20 px-6 text-white bg-black">
             <div class="max-w-6xl mx-auto text-center">
                 <h2 class="text-4xl font-bold neon-text mb-12 animate-on-scroll" data-animate="animate-zoom-in">
-                    📈 MY JOURNEY SO FAR
+                    MY JOURNEY SO FAR
                 </h2>
 
                 <!-- Metrics Grid -->
