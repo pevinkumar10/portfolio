@@ -66,7 +66,10 @@
                 <div class="text-xs text-[#d580ff] pb-1"><strong>🛠️ Type:</strong> Local Privilege Escalation</div>
                 <div class="text-xs text-[#d580ff] pb-1"><strong>🧪 Tech Stack:</strong> Python</div>
                 <div class="text-xs text-[#d580ff] mb-3 pb-3"><strong>🏷️ Tags:</strong> Exploit development ,PoC development, Security Research.</div>
-                <a href="https://github.com/pevinkumar10/CVE-2025-32463" class="neon-button text-sm" target="_blank">View on GitHub</a>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center text-sm pt-2">
+                    <a href="https://github.com/pevinkumar10/CVE-2025-32463" class="neon-button text-sm p-2" target="_blank">View on GitHub</a>
+                    <a href="https://pevinkumar.selfmade.one//src/blogs/CVE-2025-32463.php" class="neon-button text-sm" target="_blank">Blog</a>
+                </div>
             </div>
 
 
@@ -128,9 +131,27 @@
                 </p>
                 <div class="text-xs text-[#d580ff] mb-1 pt-2"><strong>🧪 Tech Stack:</strong> python</div>
                 <div class="text-xs text-[#d580ff] mb-3 pb-4"><strong>🏷️ Tags:</strong> Insecure FileUpload, RCE, Privilege Escalation</div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    <a href="https://github.com/pevinkumar10/CryptiHub" class="neon-button text-center text-sm p-2" target="_blank">View on GitHub</a>
-                    <a href="https://www.linkedin.com/posts/pevinkumar_cybersecurity-python-encryption-activity-7337719572487184385-rT72?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZci6kBNpXUA5gklG3nbUEXsFFHIpxINvU" class="neon-button text-center text-sm" target="_blank">Simulation</a>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center text-sm">
+                    <a href="https://github.com/pevinkumar10/CryptiHub" class="neon-button p-2" target="_blank">View on GitHub</a>
+                    <a href="https://www.linkedin.com/posts/pevinkumar_cybersecurity-python-encryption-activity-7337719572487184385-rT72?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZci6kBNpXUA5gklG3nbUEXsFFHIpxINvU" class="neon-button" target="_blank">Simulation</a>
+                </div>
+            </div>
+
+            <!-- Exploit development 2 -->
+            <div class="glass-card-1 p-6 rounded-xl border border-[#b600ff] project-card hover:shadow-[0_0_25px_#b600ff] animate-on-scroll hidden extra-card" data-animate="animate-zoom-in" data-category="exploits">
+                <h3 class="text-2xl font-semibold text-[#b600ff]">CVE-2025-47812:</h3>
+                <h4 class="text-sm font-semibold text-[#b600ff] mb-2">WingFTP Remote Code Execution</h4>
+                <p class="text-gray-300 text-sm mb-3">
+                    A vulnerability affecting WingFTP versions &lt;=7.4.3. I developed a <strong>Python-based extended exploit</strong>
+                    to demonstrate and enhance the exploit with custom temporary shell ,also has reverse shell feature.
+                </p>
+
+                <div class="text-xs text-[#d580ff] pb-1"><strong>🛠️ Type:</strong> Remote Code Execution</div>
+                <div class="text-xs text-[#d580ff] pb-1"><strong>🧪 Tech Stack:</strong> Python</div>
+                <div class="text-xs text-[#d580ff] mb-3 pb-3"><strong>🏷️ Tags:</strong> Exploit development ,PoC development, Security Research.</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center text-sm">
+                    <a href="https://github.com/pevinkumar10/CVE-2025-47812" class="neon-button text-sm p-2" target="_blank">View on GitHub</a>
+                    <a href="https://pevinkumar.selfmade.one//src/blogs/CVE-2025-47812.php" class="neon-button text-sm" target="_blank">Blog</a>
                 </div>
             </div>
 

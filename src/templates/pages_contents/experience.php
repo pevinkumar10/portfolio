@@ -35,7 +35,7 @@
                                 alt="TryHackMe Badge"
                                 class="rounded-md w-[300px] hover:scale-110 transition duration-300 p-4 shadow-lg" />
                         </a>
-                        Solved 60+ TryHackMe labs (Top 2% globally). Found security issues on HackerOne's public platforms & public VDPs.
+                        Solved 70+ TryHackMe labs (Top 1% globally). Found security issues on HackerOne's public platforms & public VDPs.
                         <br />
                         <a href="https://tryhackme.com/p/pevinkumar" target="_blank" class="underline text-[#b600ff]">View Profile</a>
                     </p>

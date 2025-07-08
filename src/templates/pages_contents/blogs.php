@@ -12,6 +12,14 @@
             <div id="cardTrack" class="flex space-x-6 overflow-x-auto scroll-smooth px-10 py-2 animate-on-scroll" data-animate="animate-swipe-up">
                 <!-- Card -->
                 <div class="min-w-[250px] bg-[#0a0a0a] border border-[#b600ff] rounded-xl glow-card p-4 text-center">
+                    <img src="src/img/blogs/CVE-2025-47812.png" class="mb-3 pb-1 rounded" alt="CVE-2025-32463" />
+                    <h3 class="text-xl text-[#b600ff] font-semibold">CVE-2025-47812</h3>
+                    <p class="text-sm mb-3 text-gray-300">RCE Through improper username validation.</p>
+                    <a href="src/blogs/CVE-2025-47812.php" class="neon-button text-sm pt-2" target="_blank">View</a>
+                </div>
+
+                <!-- Card -->
+                <div class="min-w-[250px] bg-[#0a0a0a] border border-[#b600ff] rounded-xl glow-card p-4 text-center">
                     <img src="src/img/blogs/cve-2025-32463.png" class="mb-3 rounded" alt="CVE-2025-32463" />
                     <h3 class="text-xl text-[#b600ff] font-semibold">CVE-2025-32463</h3>
                     <p class="text-sm mb-3 text-gray-300">Privilege escalation via sudo</p>
